@@ -11,7 +11,24 @@
     <div class="grid-box">
         <div></div>
         <div class="grid-container">
-            <div class="grid-item">L</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-header">H</div>
+            <div class="grid-item grid-left-side">
+                <div class="grid-left-side-child grid-doses"><p>Doses</p></div>
+                <div class="grid-left-side-child grid-others">
+                    <p>Data</p>
+                    <p>Local</p>
+                    <p>Rúbrica</p>
+                </div>
+            </div>
             <div class="grid-item">1</div>
             <div class="grid-item">2</div>
             <div class="grid-item">3</div>
@@ -21,7 +38,14 @@
             <div class="grid-item">7</div>
             <div class="grid-item">8</div>
             <div class="grid-item">9</div>
-            <div class="grid-item">L</div>
+            <div class="grid-item grid-left-side">
+                <div class="grid-left-side-child grid-doses"><p>Doses</p></div>
+                <div class="grid-left-side-child grid-others">
+                    <p>Data</p>
+                    <p>Local</p>
+                    <p>Rúbrica</p>
+                </div>
+            </div>
             <div class="grid-item">1</div>
             <div class="grid-item">2</div>
             <div class="grid-item">3</div>
@@ -31,7 +55,14 @@
             <div class="grid-item">7</div>
             <div class="grid-item">8</div>
             <div class="grid-item">9</div>
-            <div class="grid-item">L</div>
+            <div class="grid-item grid-left-side">
+                <div class="grid-left-side-child grid-doses"><p>Doses</p></div>
+                <div class="grid-left-side-child grid-others">
+                    <p>Data</p>
+                    <p>Local</p>
+                    <p>Rúbrica</p>
+                </div>
+            </div>
             <div class="grid-item">1</div>
             <div class="grid-item">2</div>
             <div class="grid-item">3</div>
@@ -41,7 +72,14 @@
             <div class="grid-item">7</div>
             <div class="grid-item">8</div>
             <div class="grid-item">9</div>
-            <div class="grid-item">L</div>
+            <div class="grid-item grid-left-side">
+                <div class="grid-left-side-child grid-doses"><p>Doses</p></div>
+                <div class="grid-left-side-child grid-others">
+                    <p>Data</p>
+                    <p>Local</p>
+                    <p>Rúbrica</p>
+                </div>
+            </div>
             <div class="grid-item">1</div>
             <div class="grid-item">2</div>
             <div class="grid-item">3</div>
@@ -51,7 +89,14 @@
             <div class="grid-item">7</div>
             <div class="grid-item">8</div>
             <div class="grid-item">9</div>
-            <div class="grid-item">L</div>
+            <div class="grid-item grid-left-side">
+                <div class="grid-left-side-child grid-doses"><p>Doses</p></div>
+                <div class="grid-left-side-child grid-others">
+                    <p>Data</p>
+                    <p>Local</p>
+                    <p>Rúbrica</p>
+                </div>
+            </div>
             <div class="grid-item">1</div>
             <div class="grid-item">2</div>
             <div class="grid-item">3</div>
@@ -61,7 +106,14 @@
             <div class="grid-item">7</div>
             <div class="grid-item">8</div>
             <div class="grid-item">9</div>
-            <div class="grid-item">L</div>
+            <div class="grid-item grid-left-side">
+                <div class="grid-left-side-child grid-doses"><p>Doses</p></div>
+                <div class="grid-left-side-child grid-others">
+                    <p>Data</p>
+                    <p>Local</p>
+                    <p>Rúbrica</p>
+                </div>
+            </div>
             <div class="grid-item">1</div>
             <div class="grid-item">2</div>
             <div class="grid-item">3</div>
@@ -94,6 +146,21 @@
 
         .grid-item{
             border: 0.5px solid grey;
+        }
+
+        .grid-left-side{
+            display: flex;
+        }
+
+        .grid-left-side-child{
+            flex: 1;
+            display: flex;
+            justify-content: center; /* align horizontal */
+            align-items: center; /* align vertical */
+        }
+        
+        .grid-others{
+            flex-direction: column;
         }
       </style>
     
