@@ -1,0 +1,19 @@
+{
+  "name": "carteira-vacinacao",
+  "version": "1.0.0",
+  "description": "front-end carteira-vacinacao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JooLuiz/carteira-vacinacao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JooLuiz/carteira-vacinacao/issues"
+  },
+  "homepage": "https://github.com/JooLuiz/carteira-vacinacao#readme"
+}
